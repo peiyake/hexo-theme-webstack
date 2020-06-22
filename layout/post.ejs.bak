@@ -27,19 +27,9 @@
     <%- theme.githubCorner %>
     <% } %>
     </nav>
-    <% theme.menu.forEach(function(e) { %>
-    <% if (e.submenu) { %>
-    <% e.submenu.forEach(function(e) { %>
-    <% var menus = site.data && site.data[e.config] ? site.data[e.config] : theme[e.config]; %>
-    <%- partial('common/group.ejs', {e: e}); %>
-    <% }) %>
-    <% } else { %>
-    <% var menus = site.data && site.data[e.config] ? site.data[e.config] : theme[e.config]; %>
-    <!-- <%- partial('common/group.ejs', {e: e, menus: menus}); %> -->
-    <%- partial('common/group.ejs', {e: e}); %>
-    <% } %>
-    <% }) %>
+    <%- page.content %>
     <script type="text/javascript">
+      /*
       $(document).ready(function() {
         //img lazy loaded
         const observer = lozad();
@@ -63,6 +53,7 @@
             })
           }
         })
+        */
         $('.user-info-menu .hidden-sm').click(function() {
           if ($('.sidebar-menu').hasClass('collapsed')) {
             $('.has-sub.expanded > ul').attr("style", "")
