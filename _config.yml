@@ -32,6 +32,10 @@ menu:
         icon: fas fa-folder
         englishName: vpp
         config: devTools
+      - name: 数据库
+        icon: fas fa-folder
+        englishName: sql
+        config: devTools
       - name: SHELL命令
         icon: fas fa-folder
         englishName: shell
@@ -43,6 +47,14 @@ menu:
       - name: 系统和服务
         icon: fas fa-folder
         englishName: system
+        config: devTools
+      - name: 软件工程
+        icon: fas fa-folder
+        englishName: software
+        config: devTools
+      - name: 项目管理
+        icon: fas fa-folder
+        englishName: manage
         config: devTools
   - name: 有趣的灵魂
     englishName: life
@@ -94,3 +106,11 @@ css:
   xenonComponents: /css/xenon-components.min.css
   xenonSkins: /css/xenon-skins.min.css
   nav: /css/nav.min.css
+
+valine:
+ appid:  KmguPzUzYoAUXeMp0zqvxPPj-gzGzoHsz
+ appkey:  bq515N7CFPO5fHr3XlEXp5EJ
+ verify: true 
+ notify: true 
+ placeholder: 请在这里留言。。。
+ visitor: true
