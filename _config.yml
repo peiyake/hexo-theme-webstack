@@ -17,44 +17,24 @@ menu:
     englishName: guide
     icon: fas fa-book
     config: devTools
-  - name: 博文列表
+  - name: 一级目录
     icon: fas fa-th-list
     submenu:
-      - name: UNIX-C编程
+      - name: 二级目录
         icon: fas fa-folder
         englishName: linuxc
         config: devTools
-      - name: 网络技术
+      - name: 二级目录
         icon: fas fa-folder
-        englishName: net
+        englishName: linuxc
         config: devTools
-      - name: VPP技术
+      - name: 二级目录
         icon: fas fa-folder
-        englishName: vpp
+        englishName: linuxc
         config: devTools
-      - name: 数据库
+      - name: 二级目录
         icon: fas fa-folder
-        englishName: sql
-        config: devTools
-      - name: SHELL命令
-        icon: fas fa-folder
-        englishName: shell
-        config: devTools
-      - name: LINUX内核
-        icon: fas fa-folder
-        englishName: kernel
-        config: devTools
-      - name: 系统和服务
-        icon: fas fa-folder
-        englishName: system
-        config: devTools
-      - name: 软件工程
-        icon: fas fa-folder
-        englishName: software
-        config: devTools
-      - name: 项目管理
-        icon: fas fa-folder
-        englishName: manage
+        englishName: linuxc
         config: devTools
   - name: 有趣的灵魂
     englishName: life
