@@ -64,6 +64,10 @@ aboutPage:
 
 since: 2019
 
+#code_theme: github  
+#code_theme: tomorrow 
+code_theme: tomorrow_night 
+
 js:
   jquery: /js/jquery-1.11.1.min.js
   bootstrap: /js/bootstrap.min.js
@@ -76,6 +80,7 @@ js:
   lozad: /js/lozad.min.js
   html5shiv: /js/html5shiv.min.js
   respond: /js/respond.min.js
+  google_prettify: /js/prettify.js
 
 css:
   fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
