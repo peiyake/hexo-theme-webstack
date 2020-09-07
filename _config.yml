@@ -1,4 +1,4 @@
-favicon: /favicon.ico
+favicon: /images/favicon.png
 banner: /images/webstack_banner_cn.png
 
 logo:
@@ -17,7 +17,7 @@ menu:
     englishName: guide
     icon: fas fa-book
     config: devTools
-  - name: 一级目录
+  - name: 博文列表
     icon: fas fa-th-list
     submenu:
       - name: 二级目录
@@ -91,6 +91,11 @@ css:
   xenonComponents: /css/xenon-components.min.css
   xenonSkins: /css/xenon-skins.min.css
   nav: /css/nav.min.css
+  #google_prettify: /css/prettify.css
+  #tomorrow: /css/tomorrow.css
+  #tomorrow_min: /css/tomorrow.min.css
+  #github: /css/github.css
+  #github_min: /css/github.min.css
 
 valine:
  appid:  KmguPzUzYoAUXeMp0zqvxPPj-gzGzoHsz
